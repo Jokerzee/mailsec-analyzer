@@ -1,0 +1,61 @@
+From: "PayPal Security service@paypal.com" <notice@paypa1.com>
+To: victim@example.com
+Subject: =?utf-8?b?44CQ57Sn5oCl44CR5oKo55qE6LSm5oi35bCG5ZyoMjTlsI/ml7blhoU=?=
+ =?utf-8?b?6KKr5Ya757uT77yM6K+356uL5Y2z6aqM6K+B?=
+Date: Mon, 09 Nov 2026 03:12:00 +0000
+Message-ID: <20261109031200.1234@paypa1.com>
+Reply-To: support@paypal-help.top
+Return-Path: <bounce@mailer.xyz>
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=mailer.xyz;
+ dkim=none; dmarc=fail header.from=paypa1.com
+Received: from mailer.xyz (mailer.xyz [203.0.113.9]) by mx.example.com; Mon, 9
+ Nov 2026 03:12:01 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0844676599614021147=="
+
+--===============0844676599614021147==
+Content-Type: multipart/alternative;
+ boundary="===============0419743972524964187=="
+
+--===============0419743972524964187==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear customer,
+
+We detected unusual activity. Your account will be suspended within 24 hours.
+Please verify your account immediately:
+
+http://192.0.2.10/login
+https://xn--pypal-4ve.com/verify
+https://paypa1.com/account/verify?token=abc123
+
+If you do not confirm, your payment access will be frozen.
+
+PayPal Security Team
+
+--===============0419743972524964187==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<p>Dear customer,</p>
+<p>We detected unusual activity. Your account will be suspended within 24 hou=
+rs.</p>
+<p><a href=3D"http://192.0.2.10/login">Verify now</a></p>
+<p><a href=3D"https://xn--pypal-4ve.com/verify">Confirm your identity</a></p>
+<p>See attached invoice for details.</p>
+</body></html>
+
+--===============0419743972524964187==--
+
+--===============0844676599614021147==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+MIME-Version: 1.0
+
+TVqQAHRoaXMtaXMtYS1zeW50aGV0aWMtdGVzdC1wYXlsb2Fk
+
+--===============0844676599614021147==--
